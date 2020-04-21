@@ -1,0 +1,133 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+/*================================== section style start ==========================================*/
+body{
+    color:#787978;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #333;;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2 span{
+    color:#4AB476;
+}
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.single-pricing-box:hover{
+    border-color:#4AB476;
+    box-shadow: 0 0 20px #000;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.single-pricing-box h3{
+   text-transform: uppercase;
+}
+.pricing-icon{
+    font-size:60px;
+    margin-bottom: 20px;
+}
+.pricing-icon i:hover{
+    color: #4AB476;
+    display:inline-block;
+}
+.pricing-icon img{
+    max-width: 88px;
+    background: red;
+}
+.fa, .fas {
+    font-weight: 600;
+    font-size: 50px;
+}
+.pricing-lists ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 16px;
+    line-height: 26px;
+}
+.pricing-lists ul li{
+  transition: 0.2s;
+}
+.pricing-lists ul li:hover{
+    padding-left: 5px;
+}
+
+.pricing-lists {
+    text-align: left;
+    margin-bottom: 23px;
+}
+.single-pricing-box h3 .pricing-count{
+    text-transform: none;
+}
+}
+a.border-btn {
+    display: inline-block;
+    border: 1px solid #333;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+a.border-btn {
+    display: inline-block;
+    border: 1px solid #4AB476;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 1s ease;
+}
+.pricing-lists ul li.fa, .fas {
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 10px;
+    color:#4AB476;
+}
+.pricing-lists.off{
+    margin-right: 4px;
+}
+i.fas.fa-times {
+    color: red;
+}
+
+a.border-btn:hover {
+    background-color: #4AB476;
+    color: #fff;;
+}
+
+/*================================== section style end==========================================*/
